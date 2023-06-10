@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/todo?serverTimezone=Asia/Seoul
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: ${DB_URL}
     username: root
-    password: sua7308!?
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
