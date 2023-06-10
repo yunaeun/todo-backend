@@ -12,6 +12,7 @@ class WebMvcConfig : WebMvcConfigurer {
             .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
             .allowedOrigins(
                 "http://127.0.0.1:5500",
+                "https://web-todo-front-dihik2mliq3l6b0.sel4.cloudtype.app"
             )
             .allowedHeaders("*")
             .allowCredentials(true)
